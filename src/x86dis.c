@@ -514,7 +514,7 @@ int x86dis(x86_inst *ins, u1 *p, bool bits32) {
 					}
 					d.mem.base = RM(sib)+eAX;
 				} else if(mod || rm != 5)
-					d.mem.base = reg+eAX; //yangzhixuan says it should "reg should be rm"
+					d.mem.base = reg+eAX; //yangzhixuan says "reg should be rm"
 
 				if(mod == 1) {
 					d.mem.disp.val = *d.q++;
