@@ -1,3 +1,5 @@
+// This file is in public domain --Nikita Sadkov
+
 #ifndef X86DIS_H
 #define X86DIS_H
 

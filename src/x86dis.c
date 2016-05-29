@@ -1,3 +1,5 @@
+// This file is in public domain --Nikita Sadkov
+
 #include <stdio.h>
 #include <string.h>
 
